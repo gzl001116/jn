@@ -1,0 +1,14 @@
+{
+  "name": "hugo-ai-blog",
+  "version": "1.0.0",
+  "description": "Automatically generate historical articles using AI and deploy to GitHub",
+  "main": "scripts/generate-article.js",
+  "scripts": {
+    "generate": "node scripts/generate-article.js",
+    "deploy": "hugo && git add . && git commit -m 'Auto-update: new historical article' && git push origin main"
+  },
+  "dependencies": {
+    "openai": "^4.24.7",
+    "dotenv": "^16.3.1"
+  }
+}
