@@ -1,7 +1,6 @@
 {
   "buildCommand": "hugo --verbose",
   "outputDirectory": "public",
-  "frameworkPreset": "hugo",
   "installCommand": "npm install",
   "regions": ["icn1"],
   "build": {
