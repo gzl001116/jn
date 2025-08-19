@@ -1,3 +1,6 @@
-baseURL = 'https://gzl001116.github.io/blog/'
+baseURL = 'http://localhost:1313/'
 languageCode = 'en-us'
 title = 'My New Hugo Site'
+theme = 'docsy'
+logLevel = 'debug'
+verbose = true

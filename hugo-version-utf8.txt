@@ -1,0 +1,1 @@
+﻿hugo v0.147.8-10da2bd765d227761641f94d713d094e88b920ae+extended+withdeploy windows/amd64 BuildDate=2025-06-07T12:59:52Z VendorInfo=gohugoio

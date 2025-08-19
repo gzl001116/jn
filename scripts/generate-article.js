@@ -49,4 +49,12 @@ function formatAsHugoMarkdown(content, date) {
   const today = new Date().toISOString().split('T')[0];
 
   return `---
-title:
+title: "${title}"
+date: "${today}"
+draft: false
+categories: ["历史"]
+tags: ["历史事件"]
+---
+
+${content.replace(/`/g, '\\`')}`;
+}

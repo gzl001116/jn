@@ -1,0 +1,13 @@
+{
+  "buildCommand": "hugo --verbose",
+  "outputDirectory": "public",
+  "frameworkPreset": "hugo",
+  "installCommand": "npm install",
+  "regions": ["icn1"],
+  "build": {
+    "env": {
+      "HUGO_VERSION": "0.121.0",
+      "HUGO_EXTENDED": "true"
+    }
+  }
+}
